@@ -1,0 +1,72 @@
+.registrationContainer {
+    background: white;
+    width: 350px;
+    height: 420px;
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.buttonsContainer{
+    display: flex;
+}
+
+.registrationInput, .registrationButton {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.registrationInput::placeholder {
+    color: gray;
+}
+
+.registrationInput {
+    padding-left: 20px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.registrationInput:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.registrationInput:focus {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+.registrationButton {
+    margin-top: 20px;
+    background: #550055;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.registrationButton:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+.registrationButton:active {
+    box-shadow: none;
+    background: #330033;
+}
+
+.registrationError {
+    color: red;
+}
+
+
+

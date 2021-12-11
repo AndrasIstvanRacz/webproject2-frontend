@@ -1,0 +1,72 @@
+.container {
+    background: white;
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.buttonsContainer{
+    display: flex;
+}
+
+.loginInput, .loginButton {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.loginInput::placeholder {
+    color: gray;
+}
+
+.loginInput {
+    padding-left: 20px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.loginInput:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.loginInput:focus {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+.loginButton {
+    margin-top: 20px;
+    margin-bottom: 20px ;
+    background: #550055;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.loginButton:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+.loginButton:active {
+    box-shadow: none;
+    background: #330033;
+}
+
+.LoginError {
+    color: red;
+}
+
+

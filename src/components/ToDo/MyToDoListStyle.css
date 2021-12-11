@@ -1,0 +1,100 @@
+.toDoContainer {
+    background: white;
+    width: 500px;
+    min-height: 600px;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.todoItem{
+    max-width: 450px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.toDoName{
+    border: none;
+    outline: none;
+    width: 500px;
+    height: 40px;
+    font-size: 17px;
+}
+
+.toDoName::placeholder{
+    color: black;
+}
+
+.deleteButton{
+    color: white;
+    background: darkred;
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.deleteButton:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+.deleteButton:active {
+    box-shadow: none;
+    background: maroon;
+}
+
+.addToDoInput {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.addToDoInput:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.addToDoInput:focus {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+.addToDoButton {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    box-sizing: border-box;
+    background: #550055;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.addToDoButton:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+.addToDoButton:active {
+    box-shadow: none;
+    background: #330033;
+}

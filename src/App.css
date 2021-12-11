@@ -1,0 +1,10 @@
+.App {
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: #330033;
+    background-image: url("background.svg");
+}
+
